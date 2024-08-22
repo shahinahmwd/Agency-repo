@@ -1,0 +1,462 @@
+/* All Common Css Start  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* All Common Css End  */
+/* Header Part Start  */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-link {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #4756DF;
+}
+
+.contactbtn a {
+    padding: 15px 42px;
+    background: #6A4DF4;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffff;
+}
+
+/* Header Part End  */
+/* Banner part Start  */
+#bannerPart {
+    background-image: url(../Images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bannerOverly {
+    padding-top: 330px;
+    padding-bottom: 170px;
+    background: rgba(0, 0, 0, 0.62);
+}
+
+.bannerText h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.bannerText p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 26px;
+    padding: 0 140px;
+}
+
+.bannerText a {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 26px;
+    padding: 15px 42px;
+    border-radius: 10px;
+    background: #6A4DF4;
+}
+
+/* Banner part End  */
+/* Counter part Start */
+#counterPart {
+    padding: 160px 0;
+}
+
+.lefttext h4 {
+    color: #6A4DF4;
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.lefttext h3 {
+    color: #151515;
+    font-family: "Inter", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.counterItem h3 {
+    color: #151515;
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.counterItem h4 {
+    color: #737373;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.eextraBg {
+    background: #E0FFF9;
+    padding: 80px 50px;
+    border-radius: 20px;
+}
+
+/* Counter part End */
+/* services part Start */
+#servicePart {
+    padding: 80px 0;
+}
+
+.serviceText h4 {
+    color: #151515;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.serviceText p {
+    color: #737373;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.serviceItem {
+    padding: 70px;
+    text-align: center;
+    transition: .4s;
+}
+
+.serviceText h3 {
+    color: #151515;
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 15px 0;
+}
+
+.serviceText p {
+    color: #737373;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.serviceItem:hover {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+}
+
+/* services part End */
+/*Recent work part start */
+#recentPart {
+    padding: 50px 0;
+    background: #F3F3F3;
+}
+
+.recentText h4 {
+    color: #151515;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.recentText p {
+    color: #737373;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.workItem {
+    padding: 15px 0;
+    transition: .4s;
+}
+
+.workText {
+    padding: 20px;
+    background: #FFFFFF;
+}
+
+.workText h3 {
+    color: #151515;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.workText p {
+    color: #737373;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.workItem :hover {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+    border: none;
+}
+
+/* recent part end */
+/* Why part Start */
+#whyPart {
+    padding: 100px 0;
+}
+
+.whyItem {
+    padding: 20px;
+    transition: .4s;
+}
+.whyItem:hover {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    border: none;
+}
+
+.whyTitle h4 {
+    color: #151515;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 0 114px;
+}
+
+.whyTitle p {
+    color: #737373;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.whyText h3 {
+    color: #151515;
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.whyText p {
+    color: #737373;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* Why part End */
+/* Review part Start */
+.reviewTitle h4 {
+    color: #151515;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.reviewTitle p {
+    color: #737373;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0 236px;
+}
+
+.reviewer {
+    display: flex;
+}
+
+.evatar {
+    width: 47px;
+    height: 47px;
+}
+
+.revierStar {
+    padding-bottom: 15px;
+    color: #F9BD2C;
+}
+
+.revierName {
+    padding-left: 20px;
+}
+
+.containerbt {
+    padding: 100px 0;
+}
+
+.revierName h3 {
+    color: #232323;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.revierName p {
+    color: #7B7B7B;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.reviewItem {
+    padding: 10px 0;
+    transition: .4s;
+}
+
+.reviewItem:hover {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    border: none;
+}
+/* Review part End */
+/* Contact part Start */
+#contact{
+    padding: 273px 0 227px 0;
+    background: #DCDCDC;
+}
+.contact_text{}
+.contact_text h3 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #151515;
+    padding-right: 185px;
+    margin-bottom: 20px;
+}
+.contact_text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #7B7B7B;
+    margin-bottom: 11px;
+    padding-right: 120px;
+}
+
+.contact_form {
+    width: 526px;
+    padding: 38px 43px 84px;
+    background: #fff;
+    border-radius: 20px;
+}
+.contact_form h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #151515;
+    padding-right: 185px;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.contact_form label{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #151515;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.contact_form input {
+    /* height: 64px; */
+    margin-bottom: 28px;
+    padding: 23px 19px;
+    outline: none !important;
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid #D0D0D0;
+}
+.contact_form input placeholder{
+    color: #D0D0D0;
+}
+.contact_form button{
+    padding: 19px 0;
+    color: #fff;
+    background: #6A4DF4;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+/* Contact part end */
+/* footer part Start */
+footer{
+    padding-top: 150px;
+
+}
+
+.side_logo{}
+.side_logo img{}
+.side_logo p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #7B7B7B;
+    margin-top: 30px;
+    padding-right: 55px;
+}
+
+.footer_menu{}
+.footer_menu .link:nth-child(3){
+    margin-top: 30px;
+}
+
+.footer_menu h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: #151515;
+    margin-bottom: 40px;
+}
+.footer_menu :nth-child(3){
+    margin-top: 10px;
+}
+.footer_menu ul{
+    padding: 0;
+}
+.footer_menu ul li{
+    display: block;
+}
+.footer_menu ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #7B7B7B;
+    display: block;
+    margin-bottom: 27px;
+}
