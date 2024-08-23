@@ -1,0 +1,485 @@
+/* // X-Large devices */
+@media (max-width: 1399.98px) {
+  
+}
+
+/* // Large devices */
+@media (max-width: 1199.98px) {
+    .bannerText p {
+        font-size: 20px;
+        padding: 0 46px;
+    }
+    .serviceText p {
+        font-size: 26px;
+    }
+    .serviceText p {
+        font-size: 10px;
+    }
+    .contact_text h3 {
+        font-size: 28px;
+    }
+    .contact_text p {
+        font-size: 12px;
+    }
+}
+
+/* // Medium devices  */
+@media (max-width: 991.98px) {
+     /* header related styles */
+     .navbar-toggler {
+        color: #ffff;
+        font-style: 45px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        border-radius: 10px;
+        background: rgb(144, 65, 224);
+    }
+
+    .bannerOverly {
+        padding-top: 112px;
+        padding-bottom: 71px;
+    }
+
+    .bannerText h1 {
+        font-size: 54px;
+    }
+
+    .bannerText p {
+        font-size: 18px;
+        padding: 0 !important;
+    }
+
+    .bannerText a {
+        font-size: 18px;
+        padding: 16px 32px;
+        border-radius: 10px;
+    }
+         /* Main related styles */
+         #counterPart {
+            padding: 160px 0;
+            text-align: center;
+        }
+         .eextraBg {
+            padding: 40px 34px;
+            border-radius: 10px;
+        }
+    
+        .lefttext h4 {
+            font-size: 21px;
+            text-align: center;
+        }
+    
+        .lefttext h3 {
+            font-size: 34px;
+            text-align: center;
+        }
+    
+        .counterItem {
+            text-align: center;
+        }
+    
+        .counterItem h3 {
+            font-size: 30px;
+        }
+    
+        .counterItem h4 {
+            font-size: 13px;
+        }
+        .reviewTitle p {
+            font-size: 26px;
+            padding: 0 30px;
+        }
+}
+
+/* // Small devices  */
+@media (max-width: 767.98px) {
+        /* header related styles */
+        .navbar-toggler {
+            color: #ffff;
+            font-style: 28px;
+        }
+    
+        .navbar-nav {
+            text-align: center;
+            border-radius: 10px;
+            background: rgb(144, 65, 224);
+        }
+        .nav-link {
+            font-size: 25px;
+        }
+        .bannerOverly {
+            padding-top: 200px;
+            padding-bottom: 96px;
+        }
+    
+        .bannerText h1 {
+            font-size: 58px;
+        }
+    
+        .bannerText p {
+            font-size: 16px;
+        }
+    
+        .bannerText a {
+            font-size: 12px;
+            padding: 15px 35px;
+            border-radius: 10px;
+        }
+     /* Main related styles */
+     #counterPart {
+        padding: 95px !important;
+    }
+     .eextraBg {
+        padding: 40px 34px;
+        border-radius: 10px;
+    }
+
+    .lefttext h4 {
+        font-size: 21px;
+        text-align: center;
+    }
+
+    .lefttext h3 {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .counterItem {
+        text-align: center;
+    }
+
+    .counterItem h3 {
+        font-size: 30px;
+    }
+
+    .counterItem h4 {
+        font-size: 13px;
+    }
+     /* Service related styles */
+     #servicePart {
+        padding: 16px !important;
+    }
+
+    .serviceText h4 {
+        font-size: 30px;
+    }
+
+    .serviceText p {
+        font-size: 16px;
+    }
+
+    .serviceItem {
+        padding: 45px;
+    }
+
+    .serviceText h3 {
+        font-size: 22px;
+        padding: 12px !important;
+    }
+      /* Recent related styles */
+      .recentText {
+        padding: 30px !important;
+    }
+
+    .recentText h4 {
+        font-size: 30px;
+    }
+
+    .recentText p {
+        font-size: 14px;
+    }
+
+    .workText h3 {
+        font-size: 14px;
+    }
+
+    .workText p {
+        font-size: 12px;
+    }
+        /* Why related styles */
+        #whyPart {
+            padding: 50px !important;
+        }
+    
+        .whyTitle h4 {
+            font-size: 35px;
+            padding: 0 92px;
+        }
+    
+        .whyTitle p {
+            font-size: 13px;
+        }
+    
+        .whyText h3 {
+            font-size: 16px;
+        }
+    
+        .whyText p {
+            font-size: 15px;
+        }
+        
+    /* Reviewer related styles */
+    .reviewTitle h4 {
+        font-style: 24px;
+    }
+
+    .reviewTitle p {
+        font-style: 16px;
+        padding: 0 40px;
+    }
+
+    .revierName h3 {
+        font-size: 20px;
+    }
+
+    .revierName p {
+        font-size: 15px;
+    }
+
+    /* container related styles */
+    .containerbt {
+        padding: 50px !important;
+    }
+
+    .contact_text h3 {
+        font-size: 26px;
+        padding-top: 36px;
+    }
+    #contact {
+        padding: 20px !important;
+    }
+
+    .contact_text p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .contact_form {
+        width: 500px;
+        padding: 30px 20px 54px;
+        border-radius: 10px;
+    }
+
+    .contact_form h3 {
+        font-size: 21px;
+        margin-bottom: 20px;
+    }
+
+    .contact_form label {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+
+    .contact_form input {
+        margin-bottom: 15px;
+        padding: 15px 16px;
+        border-radius: 9px;
+    }
+}
+
+/* // X-Small devices */
+@media (max-width: 575.98px) {
+
+    /* header related styles */
+    .navbar-toggler {
+        color: #ffff;
+        font-style: 28px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        border-radius: 10px;
+        background: rgb(144, 65, 224);
+    }
+
+    .bannerOverly {
+        padding-top: 112px;
+        padding-bottom: 71px;
+    }
+
+    .bannerText h1 {
+        font-size: 46px;
+    }
+
+    .bannerText p {
+        font-size: 14px;
+        padding: 0 !important;
+    }
+
+    .bannerText a {
+        font-size: 12px;
+        padding: 9px 17px;
+        border-radius: 6px;
+    }
+
+    /* Main related styles */
+    .eextraBg {
+        padding: 40px 34px;
+        border-radius: 10px;
+    }
+
+    .lefttext h4 {
+        font-size: 21px;
+        text-align: center;
+    }
+
+    .lefttext h3 {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .counterItem {
+        text-align: center;
+    }
+
+    .counterItem h3 {
+        font-size: 30px;
+    }
+
+    .counterItem h4 {
+        font-size: 13px;
+    }
+
+    /* Service related styles */
+    #servicePart {
+        padding: 30px 0;
+    }
+
+    .serviceText h4 {
+        font-size: 25px;
+    }
+
+    .serviceText p {
+        font-size: 15px;
+    }
+
+    .serviceItem {
+        padding: 35px;
+    }
+
+    .serviceText h3 {
+        font-size: 15px;
+        padding: 10px 0;
+    }
+
+    /* Recent related styles */
+    .recentText {
+        padding: 30px !important;
+    }
+
+    .recentText h4 {
+        font-size: 30px;
+    }
+
+    .recentText p {
+        font-size: 14px;
+    }
+
+    .workText h3 {
+        font-size: 14px;
+    }
+
+    .workText p {
+        font-size: 12px;
+    }
+
+    /* Why related styles */
+    #whyPart {
+        padding: 50px !important;
+    }
+
+    .whyTitle h4 {
+        font-size: 30px;
+        padding: 0 44px;
+    }
+
+    .whyTitle p {
+        font-size: 12px;
+    }
+
+    .whyText h3 {
+        font-size: 15px;
+    }
+
+    .whyText p {
+        font-size: 13px;
+    }
+
+    /* Reviewer related styles */
+    .reviewTitle h4 {
+        font-style: 24px;
+    }
+
+    .reviewTitle p {
+        font-style: 13px;
+        padding: 0 110px;
+    }
+
+    .revierName h3 {
+        font-size: 15px;
+    }
+
+    .revierName p {
+        font-size: 13px;
+    }
+
+    /* container related styles */
+    .containerbt {
+        padding: 50px !important;
+    }
+
+    .contact_text h3 {
+        font-size: 15px;
+    }
+
+    #contact {
+        padding: 10px !important;
+    }
+
+    .contact_text p {
+        font-size: 13px;
+        margin-bottom: 8px;
+    }
+
+    .contact_form {
+        width: 464px;
+        padding: 30px 20px 54px;
+        border-radius: 10px;
+    }
+
+    .contact_form h3 {
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+
+    .contact_form label {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .contact_form input {
+        margin-bottom: 15px;
+        padding: 15px 16px;
+        border-radius: 9px;
+    }
+
+    /* footer part start */
+    footer {
+        padding-top: 45px;
+    }
+
+    .side_logo p {
+        font-size: 19px;
+        margin-top: 28px;
+    }
+    .footer_menu h5 {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .footer_menu ul li a {
+        font-size: 14px;
+        margin-bottom: 13px;
+    }
+}

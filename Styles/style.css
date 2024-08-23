@@ -4,8 +4,7 @@
     padding: 0;
 }
 
-ul,
-ol {
+ul,ol {
     list-style-type: none;
 }
 
@@ -241,6 +240,7 @@ a {
     padding: 20px;
     transition: .4s;
 }
+
 .whyItem:hover {
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
@@ -347,13 +347,13 @@ a {
     border-radius: 5px;
     border: none;
 }
+
 /* Review part End */
 /* Contact part Start */
-#contact{
+#contact {
     padding: 273px 0 227px 0;
     background: #DCDCDC;
 }
-.contact_text{}
 .contact_text h3 {
     font-size: 45px;
     font-weight: 700;
@@ -376,7 +376,8 @@ a {
     background: #fff;
     border-radius: 20px;
 }
-.contact_form h3{
+
+.contact_form h3 {
     font-size: 30px;
     font-weight: 700;
     color: #151515;
@@ -385,7 +386,8 @@ a {
     text-align: center;
     margin-bottom: 30px;
 }
-.contact_form label{
+
+.contact_form label {
     font-size: 15px;
     font-weight: 500;
     line-height: 26px;
@@ -393,8 +395,8 @@ a {
     margin-bottom: 10px;
     cursor: pointer;
 }
+
 .contact_form input {
-    /* height: 64px; */
     margin-bottom: 28px;
     padding: 23px 19px;
     outline: none !important;
@@ -402,10 +404,12 @@ a {
     width: 100%;
     border: 1px solid #D0D0D0;
 }
-.contact_form input placeholder{
+
+.contact_form input placeholder {
     color: #D0D0D0;
 }
-.contact_form button{
+
+.contact_form button {
     padding: 19px 0;
     color: #fff;
     background: #6A4DF4;
@@ -414,15 +418,13 @@ a {
     border: none;
     outline: none;
 }
+
 /* Contact part end */
 /* footer part Start */
-footer{
+footer {
     padding-top: 150px;
 
 }
-
-.side_logo{}
-.side_logo img{}
 .side_logo p {
     font-size: 16px;
     font-weight: 400;
@@ -431,27 +433,29 @@ footer{
     margin-top: 30px;
     padding-right: 55px;
 }
-
-.footer_menu{}
-.footer_menu .link:nth-child(3){
+.footer_menu .link:nth-child(3) {
     margin-top: 30px;
 }
 
-.footer_menu h5{
+.footer_menu h5 {
     font-size: 20px;
     font-weight: 600;
     color: #151515;
     margin-bottom: 40px;
 }
-.footer_menu :nth-child(3){
+
+.footer_menu :nth-child(3) {
     margin-top: 10px;
 }
-.footer_menu ul{
+
+.footer_menu ul {
     padding: 0;
 }
-.footer_menu ul li{
+
+.footer_menu ul li {
     display: block;
 }
+
 .footer_menu ul li a {
     font-size: 16px;
     font-weight: 400;
